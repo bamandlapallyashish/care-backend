@@ -8,7 +8,3 @@ IS_PRODUCTION = True
 USE_SMS = env.bool("USE_SMS", default=True)  # noqa F405
 SEND_SMS_NOTIFICATION = False
 
-# Add django_celery_beat to INSTALLED_APPS
-INSTALLED_APPS = INSTALLED_APPS + [
-    'django_celery_beat',
-]
